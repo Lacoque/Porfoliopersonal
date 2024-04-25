@@ -1,4 +1,4 @@
-<?php
+ <?php
 if(empty($_POST['name']) || empty($_POST['subject']) || empty($_POST['message']) || !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
   http_response_code(400);
   exit();
