@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (formSentInput && formSentInput.value === "1") {
         modal.style.display = "block"; // Mostrar el mensaje emergente
     }
+    
 
     // Cerrar el mensaje emergente al hacer clic en el botón de cierre
     closeButton.addEventListener("click", function () {
@@ -19,4 +20,5 @@ document.addEventListener("DOMContentLoaded", function () {
             modal.style.display = "none"; // Ocultar el mensaje emergente al hacer clic fuera de él
         }
     });
+   
 });
