@@ -525,15 +525,16 @@
                 <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Contacto</h1>
                 <h1 class="position-absolute text-uppercase text-primary">Contactame</h1>
             </div>
+            <!-- <form id="sentMessage"  novalidate="novalidate" netlifly>
+                contactForm name="sentMessage" 
+               required="required" data-validation-required-message="Please enter your name"  -->
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="contact-form text-center">
                         <div id="success"></div>
-                        <form id="request" action="/index.html" method="POST" data-netlify="true"></form>
-                        <!-- <form id="sentMessage"  novalidate="novalidate" netlifly>
-                             contactForm name="sentMessage" 
-                            required="required" data-validation-required-message="Please enter your name" -->
-                            <div class="form-row">
+                        <form id="request" action="/index.html" method="POST" data-netlify="true">
+                    
+                            <div class="form-row" >
                                 <div class="control-group col-sm-6">
                                     <input type="text" class="form-control p-4" id="name" placeholder="Nombre" />
                                     <p class="help-block text-danger"></p>
@@ -556,7 +557,8 @@
                                 <button class="btn btn-outline-primary" type="submit" id="sendMessageButton" >Enviar</button>
                             </div>
                         </form>
-                        
+                    </div>
+                
                     </div>
                 </div>
             </div>
