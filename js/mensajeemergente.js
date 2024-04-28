@@ -4,10 +4,11 @@ document.addEventListener("DOMContentLoaded", function () {
     const closeButton = document.querySelector(".close");
 
     // Mostrar el mensaje emergente al enviar el formulario
-    document.getElementById("request").addEventListener("submit", function (event) {
-        event.preventDefault(); // Evitar que el formulario se envíe de forma predeterminada
+    const formSentInput = document.getElementById("formSent");
+    if (formSentInput && formSentInput.value === "1") {
         modal.style.display = "block"; // Mostrar el mensaje emergente
-    });
+    }
+    
 
     // Cerrar el mensaje emergente al hacer clic en el botón de cierre
     closeButton.addEventListener("click", function () {
