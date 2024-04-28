@@ -534,7 +534,7 @@
                         <div id="success"></div>
                         <form id="request" action="/index.html" method="POST" data-netlify="true">
                      <!-- Agrega un campo oculto para indicar que se envió correctamente -->
-    <input type="hidden" name="formSent" id="formSent" value="1">
+    <input type="hidden" name="formSent" id="formSent" value="0">
                             <div class="form-row" >
                                 <div class="control-group col-sm-6">
                                     <input type="text" class="form-control p-4" id="name" placeholder="Nombre" name="Nombre"/>
@@ -559,9 +559,9 @@
                             </div>
                         </form>
                         <!-- Agrega este elemento para el mensaje emergente -->
-<div id="modal" class="modal">
-    <div class="modal-content">
-        <span class="close">&times;</span>
+                        <div id="modal" class="modal">
+                         <div class="modal-content">
+                           <span class="close">&times;</span>
         <p>¡Formulario enviado con éxito!</p>
     </div>
 </div>
