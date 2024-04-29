@@ -126,9 +126,9 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // Cerrar el mensaje emergente al hacer clic en el botón de cierre
-    //closeButton.addEventListener("click", function () //
-       // modal.style.display = "none"; // Ocultar el mensaje emergente al hacer clic en el botón de cierre
-    //});//
+    closeButton.addEventListener("click", function () {
+        modal.style.display = "none"; // Ocultar el mensaje emergente al hacer clic en el botón de cierre
+    });
 
     // Cerrar el mensaje emergente al hacer clic fuera de él
     window.addEventListener("click", function (event) {
@@ -141,13 +141,32 @@ document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("request").addEventListener("submit", function (event) {
         event.preventDefault(); // Evitar que el formulario se envíe de forma predeterminada
 
-        // Tu lógica de validación del formulario aquí...
-        // Por ejemplo, puedes verificar que todos los campos estén completos antes de enviar el formulario.
+        // Obtener referencias a los campos del formulario
+        const nameInput = document.getElementById("name");
+        const emailInput = document.getElementById("email");
+        const subjectInput = document.getElementById("subject");
+        const messageInput = document.getElementById("message");
 
-        // Si el formulario es válido, cambia el valor del campo formSent a "1"
+        // Validar los campos del formulario
+        if (nameInput.value.trim() === "") {
+            alert("Por favor ingresa tu nombre.");
+            nameInput.focus();
+            return false; // Detener el envío del formulario
+        }
+
+        if (emailInput.value.trim() === "") {
+            alert("Por favor ingresa tu correo electrónico.");
+            emailInput.focus();
+            return false; // Detener el envío del formulario
+        }
+
+        // Puedes agregar más validaciones según tus requisitos...
+
+        // Si todas las validaciones son exitosas, cambia el valor del campo formSent a "1"
         document.getElementById("formSent").value = "1";
 
         // Envía el formulario
         this.submit();
     });
 });
+
