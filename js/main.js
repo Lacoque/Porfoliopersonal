@@ -151,9 +151,9 @@ document.addEventListener("DOMContentLoaded", function () {
         modal.style.display = "block";
 
         // Opcional: cerrar el mensaje emergente después de cierto tiempo
-        setTimeout(function () {
-            modal.style.display = "none";
-        }, 10000); // 10000 milisegundos = 10 segundos
+       // setTimeout(function () {
+            //modal.style.display = "none";
+        //}, 10000); // 10000 milisegundos = 10 segundos
        
         this.submit();
 
