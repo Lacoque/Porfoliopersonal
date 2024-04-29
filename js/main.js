@@ -151,18 +151,18 @@ document.addEventListener("DOMContentLoaded", function () {
         modal.style.display = "block";
 
         // Opcional: cerrar el mensaje emergente después de cierto tiempo
-        setTimeout(function () {
-            modal.style.display = "none";
-        }, 10000); // 10000 milisegundos = 10 segundos
+        //setTimeout(function () {
+            //modal.style.display = "none";
+        //}, 10000); // 10000 milisegundos = 10 segundos
 
         // Envía el formulario
         // Si prefieres que el formulario se envíe después de mostrar el mensaje, elimina este this.submit();
     });
 
     // Cerrar el mensaje emergente al hacer clic en el botón de cierre
-    closeButton.addEventListener("click", function () {
-        modal.style.display = "none"; // Ocultar el mensaje emergente al hacer clic en el botón de cierre
-    });
+   // closeButton.addEventListener("click", function () {
+      //  modal.style.display = "none"; // Ocultar el mensaje emergente al hacer clic en el botón de cierre
+    //});
 
     // Cerrar el mensaje emergente al hacer clic fuera de él
     window.addEventListener("click", function (event) {
