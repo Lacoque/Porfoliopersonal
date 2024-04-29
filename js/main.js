@@ -153,7 +153,7 @@ document.addEventListener("DOMContentLoaded", function () {
         // Opcional: cerrar el mensaje emergente después de cierto tiempo
         setTimeout(function () {
             modal.style.display = "none";
-        }, 3000); // 10000 milisegundos = 10 segundos
+        }, 10000); // 10000 milisegundos = 10 segundos
 
         // Envía el formulario
         // Si prefieres que el formulario se envíe después de mostrar el mensaje, elimina este this.submit();
