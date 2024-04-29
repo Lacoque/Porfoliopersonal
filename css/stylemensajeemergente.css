@@ -18,12 +18,12 @@
     width: 80%;
 }
 
-/* .close {
-    color: #aaa;
+.close {
+    color: rgb(0, 0, 0);
     float: right;
     font-size: 28px;
     font-weight: bold;
-} */
+} 
 
 .close:hover,
 .close:focus {

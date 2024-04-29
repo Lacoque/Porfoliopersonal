@@ -149,15 +149,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Mostrar el mensaje emergente
         modal.style.display = "block";
-        this.submit();
 
         // Envía el formulario
         // Si prefieres que el formulario se envíe después de mostrar el mensaje, elimina este this.submit();
     });
 
     // Cerrar el mensaje emergente al hacer clic en el botón de cierre
-   closeButton.addEventListener("click", function () {
-      modal.style.display = "none"; // Ocultar el mensaje emergente al hacer clic en el botón de cierre
+    closeButton.addEventListener("click", function () {
+        modal.style.display = "none"; // Ocultar el mensaje emergente al hacer clic en el botón de cierre
     });
 
     // Cerrar el mensaje emergente al hacer clic fuera de él
