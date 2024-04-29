@@ -126,9 +126,9 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // Cerrar el mensaje emergente al hacer clic en el botón de cierre
-    closeButton.addEventListener("click", function () {
-        modal.style.display = "none"; // Ocultar el mensaje emergente al hacer clic en el botón de cierre
-    });
+    //closeButton.addEventListener("click", function () //
+       // modal.style.display = "none"; // Ocultar el mensaje emergente al hacer clic en el botón de cierre
+    //});//
 
     // Cerrar el mensaje emergente al hacer clic fuera de él
     window.addEventListener("click", function (event) {
@@ -145,7 +145,7 @@ document.addEventListener("DOMContentLoaded", function () {
         // Por ejemplo, puedes verificar que todos los campos estén completos antes de enviar el formulario.
 
         // Si el formulario es válido, cambia el valor del campo formSent a "1"
-        document.getElementById("formSent").value = "1";
+        document.getElementById("formSent").value = "0";
 
         // Envía el formulario
         this.submit();
