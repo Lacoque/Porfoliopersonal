@@ -119,11 +119,45 @@ document.addEventListener("DOMContentLoaded", function () {
     const modal = document.getElementById("modal");
     const closeButton = document.querySelector(".close");
 
-    // Mostrar el mensaje emergente si el formulario se envió correctamente
-    const formSentInput = document.getElementById("formSent");
-    if (formSentInput && formSentInput.value === "1") {
-        modal.style.display = "block"; // Mostrar el mensaje emergente
-    }
+    // Agregar evento de escucha al enviar el formulario
+    document.getElementById("request").addEventListener("submit", function (event) {
+        // Obtener referencias a los campos del formulario
+        const nameInput = document.getElementById("name");
+        const emailInput = document.getElementById("email");
+        const subjectInput = document.getElementById("subject");
+        const messageInput = document.getElementById("message");
+
+        // Validar los campos del formulario
+        if (nameInput.value.trim() === "") {
+            alert("Por favor ingresa tu nombre.");
+            nameInput.focus();
+            event.preventDefault(); // Detener el envío del formulario
+            return false;
+        }
+
+        if (emailInput.value.trim() === "") {
+            alert("Por favor ingresa tu correo electrónico.");
+            emailInput.focus();
+            event.preventDefault(); // Detener el envío del formulario
+            return false;
+        }
+
+        // Puedes agregar más validaciones según tus requisitos...
+
+        // Cambiar el valor del campo formSent a "1" después de validar el formulario
+        document.getElementById("formSent").value = "1";
+
+        // Mostrar el mensaje emergente
+        modal.style.display = "block";
+
+        // Opcional: cerrar el mensaje emergente después de cierto tiempo
+        setTimeout(function () {
+            modal.style.display = "none";
+        }, 3000); // 3000 milisegundos = 3 segundos
+
+        // Envía el formulario
+        // Si prefieres que el formulario se envíe después de mostrar el mensaje, elimina este this.submit();
+    });
 
     // Cerrar el mensaje emergente al hacer clic en el botón de cierre
     closeButton.addEventListener("click", function () {
@@ -136,37 +170,6 @@ document.addEventListener("DOMContentLoaded", function () {
             modal.style.display = "none"; // Ocultar el mensaje emergente al hacer clic fuera de él
         }
     });
-
-    // Agregar evento de escucha al enviar el formulario
-    document.getElementById("request").addEventListener("submit", function (event) {
-        event.preventDefault(); // Evitar que el formulario se envíe de forma predeterminada
-
-        // Obtener referencias a los campos del formulario
-        const nameInput = document.getElementById("name");
-        const emailInput = document.getElementById("email");
-        const subjectInput = document.getElementById("subject");
-        const messageInput = document.getElementById("message");
-
-        // Validar los campos del formulario
-        if (nameInput.value.trim() === "") {
-            alert("Por favor ingresa tu nombre.");
-            nameInput.focus();
-            return false; // Detener el envío del formulario
-        }
-
-        if (emailInput.value.trim() === "") {
-            alert("Por favor ingresa tu correo electrónico.");
-            emailInput.focus();
-            return false; // Detener el envío del formulario
-        }
-
-        // Puedes agregar más validaciones según tus requisitos...
-
-        // Si todas las validaciones son exitosas, cambia el valor del campo formSent a "1"
-        document.getElementById("formSent").value = "1";
-
-        // Envía el formulario
-        this.submit();
-    });
 });
+
 
