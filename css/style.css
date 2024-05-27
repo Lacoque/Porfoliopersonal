@@ -5168,6 +5168,8 @@ a.badge-dark:focus, a.badge-dark.focus {
   background-color: #e9ecef;
   border-radius: 0.25rem;
 }
+3
+
 
 .progress-bar {
   display: flex;
@@ -6409,7 +6411,7 @@ button.bg-info:focus {
 }
 
 .bg-warning {
-  background-color: #ffc107 !important;
+  background-color: #e0a800 !important;
 }
 
 a.bg-warning:hover, a.bg-warning:focus,
