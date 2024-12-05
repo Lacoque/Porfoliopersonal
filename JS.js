@@ -33,6 +33,5 @@ function checkScreenSize() {
         leftSection2.parentNode.insertBefore(leftSection2, rightSection2);
     }
 }
-const menu= document.querySelector('.menu-fixed');
 // window.addEventListener("resize", checkScreenSize);
 // checkScreenSize();
