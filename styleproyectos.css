@@ -162,7 +162,7 @@ nav .nav-bar .logo a {
 
 @media (max-width: 768px) {
     nav .nav-bar .sidebarOpen {
-        display: block;
+        display: flex;
         color: #e2e3e6;
     }
 
@@ -217,10 +217,11 @@ nav .nav-bar .logo a {
         display: block;
         margin-top: 20px;
     }
-     .text-white{
+     .text-white .text-5xl{
      font-size: 10px; /* ajusta el tamaño de fuente */
      line-height: 1.5;
    }
+
 }
 
 /* header-section */
