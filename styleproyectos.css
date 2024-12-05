@@ -138,7 +138,6 @@ nav .nav-bar .logo a {
     /* border: 1px solid black; */
     box-shadow: 0 0 0 0 black;
     text-decoration: none;
-
 }
 
 
@@ -168,6 +167,7 @@ nav .nav-bar .logo a {
     }
 
     .menu {
+        display: block;
         position: fixed;
         height: 100%;
         width: 320px;
@@ -215,6 +215,14 @@ nav .nav-bar .logo a {
         display: block;
         margin-top: 20px;
     }
+   .text {
+            font-size: 16px; /* ajusta el tamaño de fuente */
+            line-height: 1.5; /* ajusta la altura de línea */
+        }
+        .text-white{
+            font-size: 16px; /* ajusta el tamaño de fuente */
+            line-height: 1.5;
+        }
 }
 
 /* header-section */
@@ -620,7 +628,7 @@ button:hover .star-6 {
 }
 /* counter of rewards bla bla dashbord  */
 .wrapperx {
-     position:relative;
+    position:relative;
     width: 70vw;
     transform: translate(-50%, -50%);
     top: 15%;
@@ -714,3 +722,4 @@ span.text {
         font-size: 8px;
     }
 } 
+
