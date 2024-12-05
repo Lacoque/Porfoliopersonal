@@ -548,7 +548,7 @@ button {
     transition: all .8s ease;
 }
 
-/* button:hover {
+ button:hover {
     background: transparent;
     color: #FEC195;
     box-shadow: 0 0 25px #fec1958c;
@@ -618,7 +618,7 @@ button:hover .star-6 {
 .fil0 {
     fill: #FFFDEF
 }
-/* counter of rewards bla bla dashbord 
+/* counter of rewards bla bla dashbord  */
 .wrapperx {
      position:relative;
     width: 70vw;
@@ -634,8 +634,8 @@ button:hover .star-6 {
     display: flex;
     width: 100%;
     height: 400px;
-}*/
-/* .containerx {
+}
+ .containerx {
     width: 41vmin;
     height: 43vmin;
     display: flex;
@@ -644,7 +644,7 @@ button:hover .star-6 {
     padding: 1em 0;
     position: relative;
     font-size: 16px;
-    /* border-radius: 0.5em; 
+    border-radius: 0.5em; 
     background-color: #21242b;
 
 }
@@ -655,7 +655,7 @@ button:hover .star-6 {
     border-radius: 0 40px 40px 0;
 } 
 
-/* i {
+ i {
     color: #18f98f;
     font-size: 2.5em;
     text-align: center;
@@ -676,7 +676,7 @@ span.text {
     pad: 0.7em 0;
     font-weight: 400;
     line-height: 0;
-} */
+} 
 
 @media screen and (max-width: 768px) {
    .wrapperx {
