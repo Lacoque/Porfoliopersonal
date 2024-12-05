@@ -34,16 +34,5 @@ function checkScreenSize() {
     }
 }
 const menu= document.querySelector('.menu-fixed');
-const menuToggle = document.querySelector('.menu-toggle');
-
-menuToggle.addEventListener('click', () => {
-    menuFixed.style.display = 'block';
-});
-
-menuFixed.querySelector('.close-menu').addEventListener('click', () => {
-    menuFixed.style.display = 'none';
-});
-
-
 // window.addEventListener("resize", checkScreenSize);
 // checkScreenSize();
