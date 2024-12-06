@@ -10,12 +10,6 @@
    
 }
 
-@media (prefers-reduced-motion: no-preference) {
-    :root {
-      scroll-behavior: smooth;
-    }
-}
-
 :root {
     --body-color: #2d2e32;
     --nav-color: #2d2e32;
@@ -47,7 +41,7 @@ nav {
     width: 100%;
     background-color: var(--nav-color);
     z-index: 100;
-}
+} 
 
 body.dark nav {
     border: 1px solid #393838;
@@ -83,7 +77,7 @@ nav .nav-bar .logo a {
 }
 
 .menu .logo-toggle {
-    display: none;
+    display: flex;
 }
 
 .nav-bar .nav-links {
@@ -171,7 +165,7 @@ nav .nav-bar .logo a {
     }
 
     .menu {
-        display: block;
+        display:block;
         position: fixed;
         height: 100%;
         width: 320px;
@@ -630,7 +624,7 @@ button:hover .star-6 {
     fill: #FFFDEF
 }
 /* counter of rewards bla bla dashbord  */
-.wrapperx {
+/* .wrapperx {
     position:relative;
     width: 70vw;
     transform: translate(-50%, -50%);
@@ -686,8 +680,9 @@ span.text {
     text-align: center;
     pad: 0.7em 0;
     font-weight: 400;
-    line-height: 0;
-} 
+    line-height: 0; 
+    } */
+
 
 @media screen and (max-width: 768px) {
    .wrapperx {
