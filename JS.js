@@ -20,7 +20,7 @@ body.addEventListener("click" , e =>{
         nav.classList.remove("active");
     }
 });
-function checkScreenSize() {
+function checkScreenSize(resize) {
     const leftSection = document.getElementById("leftSection");
     const rightSection = document.getElementById("rightSection");
     const leftSection2 = document.getElementById("leftSection2");
