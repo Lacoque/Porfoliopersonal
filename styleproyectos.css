@@ -146,10 +146,13 @@ nav .nav-bar .logo a {
 }
 @media (max-width: 768px){
     .menu .nav-links{
-        display:block;
-        position: fixed;
-        height: 100%;
-        width: 320px;
+        display: block;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+        
     }
     .contact-us-btn{
         display:none;
