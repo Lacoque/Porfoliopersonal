@@ -130,15 +130,12 @@ nav .nav-bar .logo a {
     color: #25262a;
     font-family: 'Roboto mono', monospace;
     background-color: #e0a800;
-    /* background-image: (91deg,var(#ffaf29) 0%,var(#fecd1a) 100%); */
     color: #25262a;
     border-radius: 1em;
     font-size: 17px;
     font-weight: 600;
     padding: 1em 2em;
     cursor: pointer;
-    /* transition: all 0.3s ease-in-out; */
-    /* border: 1px solid black; */
     box-shadow: 0 0 0 0 black;
     text-decoration: none;
 }
@@ -235,7 +232,7 @@ nav .nav-bar .logo a {
     border-radius: 5px;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 1200px) {
     .header-section {
         flex-direction: column;
     }
