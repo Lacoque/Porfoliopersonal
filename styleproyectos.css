@@ -247,7 +247,14 @@ nav .nav-bar .logo a {
         text-align: center;
     }
 }
+@media (min-width: 1200px){
+    .text-5xl {   
+        font-size: 3rem;
+        line-height: 1;
+        width: 100%;
 
+    }
+}
 /* cards section styles */
 
 
