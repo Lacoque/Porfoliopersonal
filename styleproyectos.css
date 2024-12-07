@@ -20,6 +20,10 @@
     
 }
 
+@media (prefers-reduced-motion: no-preference) {
+    :root {
+      scroll-behavior: smooth;
+    }
 body {
     height: 100vh;
     background-color: var(--body-color);
@@ -144,15 +148,7 @@ nav .nav-bar .logo a {
     transform: translateY(2px) translateX(1px);
     box-shadow: 0 0 0 0 black;
 }
-  
-@media (max-width: 768px) {
-    .container {
-      max-width: 100%;
-    }
-    .element {
-      font-size: 14px;
-    }
-  }
+
 @media (max-width: 768px){
     .menu .nav-links{
         display: block;
@@ -672,4 +668,4 @@ span.text {
         font-size: 8px;
     }
 } 
-
+}
