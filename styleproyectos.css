@@ -24,6 +24,7 @@
     :root {
       scroll-behavior: smooth;
     }
+}
 body {
     height: 100vh;
     background-color: var(--body-color);
@@ -234,7 +235,7 @@ nav .nav-bar .logo a {
     border-radius: 5px;
 }
 
-@media (max-width: 990px) {
+@media (max-width: 768px) {
     .header-section {
         flex-direction: column;
     }
@@ -668,4 +669,4 @@ span.text {
         font-size: 8px;
     }
 } 
-}
+
