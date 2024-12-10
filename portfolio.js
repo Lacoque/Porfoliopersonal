@@ -78,49 +78,49 @@ const app = new Vue({
     cards: [
       {
         title: "A.C.E.E.",
-        content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        content: "Contacto:Rediseño Web, Optimizacion y seguridad",
         image: "img/acee.png",
         url: "https://acee.com.ar/"
       },
       {
         title: "Doble A",
-        content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        content: "Portfolio: Desarrollo y diseño Web, seguridad y SEO",
         image: "img/doblea.png",
         url: "https://estudiodoblea.com.ar/"
       },
       {
         title: "Contenidx",
-        content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        content: "Proyecto Freelancer donde trabajo actualmente",
         image: "img/contenidx.png",
         url: "https://contenidx.com.ar/"
       },
       {
         title: "Tata Pirirí",
-        content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        content: "contacto/E-commerce: Desarrollo y diseño Web",
         image: "img/tatapiriri.png",
         url: "https://tatapiriri.com.ar/"
       },
       {
         title: "Shams",
-        content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        content: "Contacto: Desarrollo web",
         image: "img/shams.png",
         url: "https://shams.ar/"
       },
       { 
         title: "ITA",
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      content: "Portal de empleo: Desarrollo Web, Seguridad y SEO",
       image: "img/itaconsultora.png",
       url: "https://itaconsultora.com.ar/"
       },
       {
       title: "Secret Selves",
-        content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        content: "E-commerce: Desarrollo Web y Seguridad",
         image: "img/secretselves.png",
         url: "https://secretselves.store/"
       },
       {
         title: "Punto Sano",
-        content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        content: "Fue un proyecto E-commerce donde trabaje en el diseño y desarrollo web",
         image: "img/puntosano..png",
         url: null
       },

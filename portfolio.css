@@ -39,14 +39,54 @@ body {
     text-decoration: none;
    color: #e0a800
   }
-  .h{
-    margin: 0 !important;
-    font-weight: 900 !important;
-    line-height: 1.2;
-    color: #343a40;
-    font-size: 1.5rem;
+  /* header */
+/* General estilos */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  position: relative;
+}
 
+.navbar .back-arrow {
+  display: none; /* Oculta la flecha por defecto */
+  font-size: 16px; 
+  color: white;
+  text-decoration: none;
+  background-color: #4a4a4a; /* Fondo gris oscuro */
+  border-radius: 50%; /* Hace que sea circular */
+  width: 40px; 
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 1rem; /* Posiciona en el lado izquierdo */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.navbar img {
+  max-height: 50px; /* Ajusta según sea necesario */
+  position: absolute;
+  right: 1rem; /* Imagen en el lado derecho */
+}
+
+/* Mobile estilos */
+@media (max-width: 768px) {
+  .navbar .back-arrow {
+    display: block; /* Muestra la flecha en dispositivos móviles */
   }
+
+  .navbar img {
+    display: none; /* Oculta la imagen en dispositivos móviles */
+  }
+}
+
+
+
+
+
   
   .container {
     padding: 40px 80px;
