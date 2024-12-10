@@ -75,7 +75,7 @@ body {
 /* Mobile estilos */
 @media (max-width: 768px) {
   .navbar .back-arrow {
-    display: block; /* Muestra la flecha en dispositivos móviles */
+    display: Flex; /* Muestra la flecha en dispositivos móviles */
   }
 
   .navbar img {
