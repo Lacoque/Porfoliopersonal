@@ -97,7 +97,7 @@ const app = new Vue({
       {
         title: "Tata Pirirí",
         content: "contacto/E-commerce: Desarrollo y diseño Web",
-        image: "img/tatapiriri.svg",
+        image: "img/tatapiriri.jpg",
         url: "https://tatapiriri.com.ar/"
       },
       {
