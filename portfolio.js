@@ -85,7 +85,7 @@ const app = new Vue({
       {
         title: "Doble A",
         content: "Portfolio: Desarrollo y diseño Web, seguridad y SEO",
-        image: "img/doblea.png",
+        image: "img/doblea.jpg",
         url: "https://estudiodoblea.com.ar/"
       },
       {
@@ -109,19 +109,19 @@ const app = new Vue({
       { 
         title: "ITA",
       content: "Portal de empleo: Desarrollo Web, Seguridad y SEO",
-      image: "img/itaconsultora.png",
+      image: "img/itaconsultora.jpg",
       url: "https://itaconsultora.com.ar/"
       },
       {
       title: "Secret Selves",
         content: "E-commerce: Desarrollo Web y Seguridad",
-        image: "img/secretselves.png",
+        image: "img/secretselves.jpg",
         url: "https://secretselves.store/"
       },
       {
         title: "Punto Sano",
         content: "Fue un proyecto E-commerce donde trabaje en el diseño y desarrollo web",
-        image: "img/puntosano..png",
+        image: "img/puntosano..jpg",
         url: null
       },
      
